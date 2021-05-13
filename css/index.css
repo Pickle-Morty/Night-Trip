@@ -1,0 +1,10 @@
+@import'./config/config.css';
+@import'./config/fonts.css';
+@import'./fonts.css';
+@import'./components/tabs.css';
+@import'./page.css';
+@import'./header.css';
+@import'./main.css';
+@import'./about.css';
+@import'./recall.css';
+@import'./footer.css';

@@ -1,0 +1,43 @@
+.footer {
+    background: rgb(1,22,39);
+    padding: 0 0 150px;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 70px;
+}
+
+.footer__title {
+    margin-bottom: 20px;
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+
+.footer__link {
+    font-size: 15px;
+    color: white;
+    line-height: 1.2em;
+}
+
+.footer__line {
+    display: block;
+    margin: 0 0 20px;
+}
+
+.footer__text {
+    text-align: center;
+    line-height: 1.6em;
+    margin: 0 0 30px;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 35px;
+}
