@@ -1,0 +1,49 @@
+.social__menu .blooming-menu__container {
+    left: 0;
+    bottom: 0px;
+    top: auto;
+    position: absolute;
+  }
+
+  .blooming-menu__item:nth-of-type(1) .blooming-menu__item-btn {
+    background-image: url("/dist/img/icon/facebook-lBlue.svg");
+    background-size: 35%;
+  }
+
+  .blooming-menu__item:nth-of-type(2) .blooming-menu__item-btn {
+    background-image: url("/dist/img/icon/instagram-lBlue.svg");
+  }
+
+  .blooming-menu__item:nth-of-type(3) .blooming-menu__item-btn {
+    background-image: url('/dist/img/icon/tweter-lBlue.svg'); /*содержание доп элементов*/
+  }
+
+  .blooming-menu__item-btn {
+    background-color: var(--dark-blue) !important ;
+  }
+
+  .blooming-menu__item-btn:hover {
+    box-shadow: 0 0 17px 0 rgba(0,0,0,.2) !important;
+    opacity: 1;
+  }
+  .blooming-menu__main-content {
+    color: transparent !important;
+    background: url('/dist/img/icon/share.svg') no-repeat center;
+    background-size: contain;
+    height: 50px !important;
+  }
+
+  .blooming-menu__main {
+    background: var(--dark-blue) !important; /*цвет основного элемента menu*/
+  } 
+  .blooming-menu__main.is-active {
+    transform: rotate(360deg) !important; /*поворот при нажатии основного элемента*/
+  }
+  .blooming-menu__main-content {
+    line-height: 100% !important; 
+  }
+
+  .image {
+    background: red;
+  }
+  

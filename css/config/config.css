@@ -101,7 +101,8 @@ a {
 	transition: 0.6s;
 }
 
-.btn::after {
+.btn::after,
+.btn::before {
 	content: '';
 	width: 30px;
 	height: 2px;
@@ -109,11 +110,18 @@ a {
 	position: absolute;
 	top: 28px;
 	right: -15px;
-
+	transition: .6s;
 }
+
 
 .btn:hover {
 	box-shadow: 0 0 30px var(--transporent-green);
+}
+
+@media screen and (max-width:540px) {
+    .btn {
+        width: 210px;
+    }
 }
 
 .icon {

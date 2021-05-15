@@ -95,6 +95,20 @@
     .recall__box {
         grid-template-columns: 1fr;
     }
+   
+    
+}
+
+@media screen and (max-width:540px) {
+    .recall__card {
+        height: auto;
+        background: var(--blue);
+        padding: 30px 40px 40px 40px;
+        margin: 0 12px 24px;
+    }
+    .recall__card::before {
+       display: none;
+    }
 }
 
 

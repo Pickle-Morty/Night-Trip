@@ -57,3 +57,9 @@
 .page__icon {
     margin-bottom: 20px;
 }
+
+@media screen and (max-width:540px) {
+    .page__contant {
+        top: 25%
+    }
+}
